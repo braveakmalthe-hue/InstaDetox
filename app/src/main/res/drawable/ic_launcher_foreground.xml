@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Central organic mindfulness leaf silhouette inside the adaptive safe zone -->
+    <path
+        android:strokeWidth="1"
+        android:strokeColor="#00000000"
+        android:pathData="M54,24 C34,36 34,70 54,84 C74,70 74,36 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="54"
+                android:startY="24"
+                android:endX="54"
+                android:endY="84">
+                <item android:offset="0.0" android:color="#10B981" />
+                <item android:offset="1.0" android:color="#6EE7B7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stem of the leaf -->
+    <path
+        android:pathData="M54,84 L54,90"
+        android:strokeColor="#6EE7B7"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Inner central rib highlighting organic contrast -->
+    <path
+        android:pathData="M54,34 C51,46 51,62 54,78"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>
